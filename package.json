@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --progress --display-error-details",
-    "postinstall": "bash ./postinstall.sh"
+    "start": "webpack-dev-server --progress --display-error-details"
   },
   "author": "",
   "license": "ISC",
