@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "start": "webpack-dev-server --progress --display-error-details",
-        "postinstall": "rm -rf public && mkdir public && cp -r ./node_modules/cesium/Build/Cesium/* ./public"
+        "postinstall": "bash ./postinstall.sh"
     },
     "author": "",
     "license": "ISC",
@@ -14,7 +14,10 @@
         "css-loader": "^0.23.1",
         "file-loader": "^0.8.5",
         "html-webpack-plugin": "^2.9.0",
-        "style-loader": "^0.13.0"
+        "lodash": "~3.10.1",
+        "propeller-js": "git+ssh://git@github.com/PropellerAero/propeller-js.git",
+        "style-loader": "^0.13.0",
+        "terriajs-cesium": "1.15.4"
     },
     "repository": {
         "type": "git",
