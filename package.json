@@ -15,5 +15,9 @@
         "file-loader": "^0.8.5",
         "html-webpack-plugin": "^2.9.0",
         "style-loader": "^0.13.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PropellerAero/cesium-webpack.git"
     }
 }
