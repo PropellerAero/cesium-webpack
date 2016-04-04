@@ -1,18 +1,19 @@
 {
-  "name": "cesium-npm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --progress --display-error-details"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "cesium": "^1.20.0",
-    "css-loader": "^0.23.1",
-    "file-loader": "^0.8.5",
-    "html-webpack-plugin": "^2.9.0",
-    "style-loader": "^0.13.0"
-  }
+    "name": "cesium-npm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "webpack-dev-server --progress --display-error-details",
+        "postinstall": "rm -rf public && mkdir public && cp -r ./node_modules/cesium/Build/Cesium/* ./public"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cesium": "^1.20.0",
+        "css-loader": "^0.23.1",
+        "file-loader": "^0.8.5",
+        "html-webpack-plugin": "^2.9.0",
+        "style-loader": "^0.13.0"
+    }
 }
