@@ -1,5 +1,5 @@
 {
-    "name": "cesium-npm",
+    "name": "cesium-webpack",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
