@@ -1,4 +1,4 @@
-# cesium-npm
+# cesium-webpack
 A minimal template project for running Cesium from NPM using webpack.  This has been adapted from [cesium-webpack](https://github.com/mmacaula/cesium-webpack).
 
 ## Up and running
